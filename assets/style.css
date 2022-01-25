@@ -5,18 +5,14 @@
     font-family: "Big Shoulders Display";
 }
 
-body {
-    width: 100%;
-    height: 100vh;
-}
-
 main {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: hsl(0, 0%, 95%);
     padding: 5rem;
-    
+    height: 100vh;
+    border-radius: 20px;
 }
 
 .laranja {
@@ -25,7 +21,12 @@ main {
     align-items: flex-start;
     justify-content: center;
     background-color: hsl(31, 77%, 52%);
-    padding: 2rem;
+    padding: 2rem 5rem 2rem 2rem;
+    min-height: 650px;
+    width: 380px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    
 }
 
 .azul {
@@ -34,7 +35,9 @@ main {
     align-items: flex-start;
     justify-content: center;
     background-color: hsl(184, 100%, 22%);
-    padding: 2rem;
+    padding: 2rem 5rem 2rem 2rem;
+    min-height: 650px;
+    width: 380px;
 }
 
 .verde {
@@ -43,7 +46,11 @@ main {
     align-items: flex-start;
     justify-content: center;
     background-color: hsl(179, 100%, 13%);
-    padding: 2rem;
+    padding: 2rem 5rem 2rem 2rem;
+    min-height: 650px;
+    width: 380px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 main h1 {
@@ -52,10 +59,57 @@ main h1 {
     font-size: 56px;
     padding-top: 2rem;
     padding-bottom: 2rem;
+    font-weight: 700;
 }
 
 main span {
-    color: hsl(0, 0%, 95%);
+    color: hsla(0, 0%, 100%, 0.75);
     font-size: 26px;
-    padding-bottom: 2rem;
+    padding-bottom: 5rem;
+    font-family: "Lexend Deca";
+    
+    text-align: left;
+}
+
+.btn {
+    display: flex;
+    align-items: flex-start;
+}
+
+.btn-1 {
+    color: hsl(31, 77%, 52%);
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 40px;
+    width: 150px;
+    height: 60px;
+    font-size: 16px;
+    font-family: "Lexend Deca";
+    font-weight: 400;
+    border: none;
+}
+
+.btn-2 {
+    color: hsl(184, 100%, 22%);
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 40px;
+    border-radius: 40px;
+    width: 150px;
+    height: 60px;
+    font-size: 16px;
+    font-family: "Lexend Deca";
+    font-weight: 400;
+    border: none;
+}
+
+.btn-3 {
+    color: hsl(179, 100%, 13%);
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 40px;
+    border-radius: 40px;
+    width: 150px;
+    height: 60px;
+    font-size: 16px;
+    font-family: "Lexend Deca";
+    font-weight: 400;
+    border: none;
 }
